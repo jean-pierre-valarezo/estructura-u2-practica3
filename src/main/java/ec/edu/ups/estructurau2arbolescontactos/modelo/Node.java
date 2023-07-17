@@ -14,7 +14,7 @@ public class Node {
     private Node right;
 
   
-    public Node(Contacto contacto, Node left, Node right) {
+    public Node(Contacto contacto) {
         this.contacto = contacto;
         this.left = left;
         this.right = right;
@@ -48,6 +48,7 @@ public class Node {
     public String toString() {
         return "Node: " + "contacto=" + contacto + ", left=" + left + ", right=" + right + '}';
     }
+
     
     
 }
